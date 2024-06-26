@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title> 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+      .first{
+        flex-wrap: wrap;
+      }
+      *{
+        text-decoration: none;
+        margin: 0px;
+      }
+      .nav{
+        font-size: 4px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #474747;
+        height: 30px;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+      }
+      .nav_text{
+        display: flex;
+        align-items: center;
+        color: rgb(243, 222, 222);
+        gap: 20px;
+        padding-right: 600px;
+        font-size: 9px;
+        font-family:'DM Sans',sans-serif;
+      }
+      .nav_text i{
+        color: white;
+      }
+      .logo {
+        display: flex;
+         border-radius: 360px;
+         gap: 5px;
+      }
+      .logo i{
+        display: flex;
+         color: white;
+         font-size: 0.001px;
+         background-color: #F9F9F71F;
+          border-radius: 360px;
+           height: 20px; 
+           width: 20px;
+           justify-content: center;
+           align-items: center;
+      }
+      .nav2{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        height: 30px;
+        width: 100%;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .opt{
+        display: flex;
+         color:#2C2F24;
+          font-size: 8px;
+          gap: 30px;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+          font-family:'DM Sans',sans-serif;
+          font-weight: 500;
+      }
+      .btn{
+        padding: 
+        20px 5px 20px 5px;
+      }
+      .form{
+        display: flex;
+        justify-content: center;
+        background-color: #f0eded;
+        border-radius: 2px;
+        height: 400px;
+        width: 550px;
+        border-radius: 15px;
+        position: absolute;
+        top: 100px;
+      }
+      input[type=date],input[type=time],input[type=text],input[type=number]{
+        height: 40px;
+        width: 200px;
+        border: #beb4b4c9,1px,solid;
+        border-radius: 180px;
+        background-color: #DBDFD0;
+      }
+      label{
+        font-size:12px;
+        color: #2C2F24;
+      }
+      input[type=text]::placeholder,input[type=number]::placeholder{
+        padding-left: 15px;
+      }
+      .Main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .img{
+         padding-top: 220px;
+      } 
+      .hero{
+        display: flex;
+        background-color: #2C2F24;
+        justify-content: space-around;
+        height: 500px;
+        width: 100%;
+        flex-wrap: wrap;
+      }
+      td,th,tr{
+        height: 30px;
+        width: 200px;
+        text-align: left;
+        gap: 50px;
+      }
+      td{
+        font-size: 1px;
+        color: #DBDFD0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      th{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 16px;
+      }
+      .ng .nav2{
+        position: sticky;
+        top: 0px;
+      }
+      input[type=date],input[type=time]{
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #2C2F24;
+      }
+     </style>
+</head>
+<body style="margin: 0px;">
+     <div class="first">
+      <div class="nav" >
+        <div class="nav_text" > 
+          <div class="con" ><i class="fa-solid fa-phone"></i> (414) 857 - 0107</div>
+          <div class="mail"><i class="fa-regular fa-envelope"></i> happytummy@bistrobliss </div>
+        </div>
+        <div class="logo">
+            <div><i class="fa-brands fa-twitter" style="padding-top: 1px;"></i></div>
+            <div><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></div>
+            <div><i class="fa-brands fa-instagram" style="padding-left: 1px;padding-right: 1px;"></i></div>
+        </div>
+      </div>
+       <div class="nav2">
+            <div style="display: flex;"> <img src="./logo.png" alt="error" style="height: 30px;width: 40px;"> <H1 style="color: #474747;font-size: 26px;font-weight: 600px;font-family:'Playfair Display',sans-serif;"><i>Bistro Bliss</i></H1></div>
+            <div class="opt">
+              <div class="homenav"><a href="./project.html" style="color:#2C2F24;">Home</a></div>
+              <div><a href="./about.html" style="color:#2C2F24;">About</a></div>
+              <div><a href="./Menu.html"style="color:#2C2F24;">Menu</a></div>
+              <div><a href="./Pages.html" style="color:#2C2F24;">Pages</a></div>
+              <div><a href="./contact.html" style="color:#2C2F24;">Contact</a></div>
+            </div>
+            <div class="btn"><input type="submit" value="Book A Table" style="height: 25px;width: 120px;border-radius: 20px; background-color: #DBDFD0;border-radius: 20px;width: 100px;height: 25px;text-align: center;"></div>
+       </div>
+     </div>
+    <div class="Main">
+       <div style="display: flex;justify-content: center;"><h1 style="color: #2C2F24;font-family: 'Times New Roman', Times, serif;font-size: 48px;padding-top: 15px;">Book A Table</h1></div>
+       <div style="display: flex;justify-content: space-around;"><p style="text-align: center;color: #495460;font-size: 6px;padding: 10px;">We consider all the drivers of change gives you the components <br>you need to change to create a truly happens.</p></div>
+       <div class="form">
+        <form action="">
+            <div style="display: flex;gap: 30px;padding-top: 50px;">
+                <div>
+                    <label for="date">Date</label><br>
+                    <input type="date" name="date" >
+                </div>
+                <div>
+                    <label for="time">Time</label><br>
+                    <input type="time" name="time" >
+                </div>
+            </div>
+            <div  style="display: flex;gap: 30px;padding-top: 20px;">
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" placeholder="Enter Your Name">
+                </div>
+                <div>
+                    <label for="phone">Phone</label><br>
+                    <input type="number" name="phone" placeholder="x-xxx-xxx-xxxx">
+                </div>
+            </div>
+            <div style="display: flex;flex-direction: column;padding-top: 20px;">
+              <div>
+                <label for="tot">Total Person</label><br>
+              <select name="tot" id="" style="height: 40px;width: 445px;border-radius: 180px;justify-content: center;background-color: #DBDFD0;border: 1px,solid,#beb4b4c9;color: #2C2F24;">
+                <option value="1" style="padding-left: 15px;">1 Person</option>
+                <option value="2" style="padding-left: 15px;">2 People</option>
+                <option value="3" style="padding-left: 15px;">3 People</option>
+                <option value="4" style="padding-left: 15px;">4 People</option>
+                <option value="5" style="padding-left: 15px;">5 People</option>
+                <option value="6" style="padding-left: 15px;">6 People</option>
+              </select>
+              </div>
+            </div>
+            <div style="display: flex;padding-top: 20px;justify-content: center;">
+              <input type="submit" value="Book Now" class="btn1" style="background-color: red; border-radius: 40px;width: 420px;height: 40px;border: black;color: white;">
+            </div>
+        </form>
+       </div>
+       <div class="img">
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14131.053171587144!2d83.45784544944765!3d27.693709959030812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3996868906ac7a27%3A0x23963717025fb8c7!2sBhat%20Bhateni%20Super%20Store!5e0!3m2!1sen!2snp!4v1718337672176!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d895.0742280412691!2d83.46383840652994!3d27.690186063467337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2snp!4v1718337480348!5m2!1sen!2snp" width="999" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- <img src="./image 112.jpg" alt="error" style="height: auto;width: 100%;"> -->
+      </div>
+    </div>
+    <div class="hero">
+      <div style="height: 190px;width: 270px;display: flex;flex-direction: column;position: relative;top: 70px;">
+       <div style="display: flex;"><img src="./logo2.png" alt="error" style="width: auto;height: 40px;"><h2 style="font-size: 28px;font-family:'Playfair Display',sans-serif;color: #ffffff;"><i>Bistro Bliss</i></h2></div>
+       <div style="padding-top: 18px;padding-left: 5px;"><p style="color: #ADB29E;font-size: 4px;line-height: 20px;font-family:'DM Sans',sans-serif;">In the new era of technology we look a <br> in the future with certainty and pride to <br> for our company and.</p></div>
+       <div style="display: flex;gap: 10px;padding-top: 22px;padding-left: 5px;">
+        <div style="background-color: #AD343E; height: 25px;width: 25px;border-radius: 360px;"><i class="fa-brands fa-twitter" style="padding-top: 6px;color: #ffffff;font-size: 0.01px;padding-left: 6px;"></i></div>
+        <div style="background-color: #AD343E; height: 25px;width: 25px;border-radius: 360px;"><i class="fa-brands fa-facebook-f" style="padding-top: 5.5px;color: #ffffff;font-size: 0.01px;padding-left: 8px;"></i></div>
+        <div style="background-color: #AD343E; height: 25px;width: 25px;border-radius: 360px;"><i class="fa-brands fa-instagram"  style="padding-top: 6px;color: #ffffff;font-size: 0.01px;padding-left: 6.5px;"></i></div>
+       </div>
+      </div>
+      <div style="height: 200px;width: 300px;position: relative;top: 50px;font-family:'DM Sans',sans-serif;">
+        <table>
+          <tr>
+           <th><a href="./Pages.html" style="color: #ffffff;">Pages</a></th>
+           <th>Utility Pages</th>
+          </tr>
+          <tr>
+           <td><a href="./project.html" style="color: #DBDFD0;">Home</a></td>
+           <td>Start Here</td>
+          </tr>
+          <tr>
+           <td><a href="./about.html" style="color: #DBDFD0;">About</a></td>
+           <td>Styleguide</td>
+          </tr>
+          <tr>
+           <td><a href="Menu.html" style="color: #DBDFD0;">Menu</a></td>
+           <td>Password Protected</td>
+          </tr>
+          <tr>
+          <td><a href="Menu.html" style="color: #DBDFD0;">Pricing</a></td>
+           <td>404 Not Found</td>
+          </tr>
+          <tr>
+           <td><a href="Articles.html" style="color: #DBDFD0;">Blog</a></td>
+           <td>Licenses</td>
+          </tr>
+          <tr>
+           <td><a href="contact.html" style="color: #DBDFD0;">Contact</a></td>
+           <td>Changelog</td>
+          </tr>
+          <tr>
+           <td><a href="Menu.html" style="color: #DBDFD0;">Delivery</a></td>
+           <td>View More</td>
+          </tr>
+       </table>
+    </div>
+      <div style="height: 340px;width: auto;position: relative;top: 50px;font-family:'DM Sans',sans-serif;">
+        <div>
+          <div><p style="color: white;font-size: 14px;">Follow us on Instagram</p></div><br><br>
+          <div style="display: flex;flex-direction: column;gap: 10px;">
+            <div style="display: flex;gap: 10px;">
+              <div><img src="./noodles.jpg" alt="error" style="border-radius: 10px;width: auto;height: 130px;"></div>
+              <div><img src="./fries.jpg" alt="error" style="border-radius: 10px;width: auto;height: 130px;"></div>
+            </div>
+            <div style="display: flex;gap: 10px;">
+              <div><img src="./chicken.jpg" alt="error" style="border-radius: 10px;width: auto;height: 130px;"></div>
+              <div><img src="./pan.jpg" alt="error" style="border-radius: 10px;width: auto;height: 130px;"></div>
+            </div>
+          </div>
+      </div>
+      </div>
+      <div style="display: flex;flex-direction: column;">
+        <div><hr style="width: 700px;"></div><br>
+        <div style="text-align: center;"><p style="font-size: smaller;color: #ADB29E;font-family:'DM Sans',sans-serif;">Copyright © 2023 Hashtag Developer. All Rights Reserved</p></div>
+      </div>
+    </div>
+</body>
+</html>
